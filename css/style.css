@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container-1 {
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(214, 147, 145, 0.7)), url(../images/bg1.jpeg);
+}
+
+#start {
+    color: #ffffff;
+    padding: 5em;
+    line-height: 3em;
+    height: 80vh;
+}
+
+#start h1, h2 {
+    text-decoration: underline;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+.wish {
+    font-weight: bold;
+}
+
+.btn-1 {
+    text-align: center;
+}
+
+.start-button {
+    margin-top: 4em;
+    font-weight: 900;
+    color: #000;
+    padding: 1.5em 3em;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.start-button:hover {
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+}
