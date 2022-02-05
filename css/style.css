@@ -46,3 +46,18 @@ p {
     background-color: transparent;
     color: #ffffff;
 }
+/*Questions section*/
+.question1, .question2, .question3, .question4, .question5 {
+    padding: 2em 4em;
+    line-height: 3em;
+    border: 2px solid grey;
+}
+
+.btn-2 {
+    padding: 0.7em 1.4em;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 2px;
+}
+
