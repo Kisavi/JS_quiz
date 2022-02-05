@@ -47,10 +47,11 @@ p {
     color: #ffffff;
 }
 /*Questions section*/
-.question1, .question2, .question3, .question4, .question5 {
+#question1, .question2, .question3, .question4, .question5 {
     padding: 2em 4em;
     line-height: 3em;
-    border: 2px solid grey;
+    border: 1.5px solid grey;
+    margin: 3em;
 }
 
 .btn-2 {
@@ -59,5 +60,6 @@ p {
     background-color: green;
     border: none;
     border-radius: 2px;
+    cursor: pointer;
 }
 
