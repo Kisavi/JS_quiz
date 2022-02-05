@@ -1,14 +1,15 @@
 document.getElementById('stat-button').addEventListener('click', startTest)
 
 function startTest() {
-    console.log('hello 1')
-
-    let z = document.getElementById('container-1');
-    if (z.style.display === 'none') {
-        z.style.display = 'block';
-    } else {
-        z.style.display = 'none';
-    }
+    let x = document.getElementById('container-1');
+    let y = document.getElementById('container-2');
+        if (x.style.display === 'block') {
+            x.style.display = 'none'
+            y.style.display = 'block'
+        } else {
+            document.getElementById('container-1').style.display = 'block'
+            document.getElementById('container-2').style.display = 'none'
+        }
 }
 
 document.getElementById('submit').addEventListener('click', submitTest)
