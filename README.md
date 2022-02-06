@@ -16,6 +16,7 @@ This form is dived into the following sections,
  + The first page which has details on what the student is to expect in the test.
  + The second page which contains the test or questions.
  + The third page which displays what the student has scored and action to be taken.
+ + Here is a my Figma sample design of the quiz board. https://www.figma.com/file/yiyXp5ZSMVsDnXoo3Kje2t/quiz-board?node-id=0%3A1 
  
  ## Installation
   + No installation is required just a click of a link to display the form.
