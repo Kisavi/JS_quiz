@@ -25,8 +25,8 @@ This form is dived into the following sections,
 
    ### Installation process
   To view the quiz form,
-  + Click <a href="https://kisavi.github.io/insurance_website/">here</a> or
-  + Copy paste and load this link on your preferred browser https://kisavi.github.io/insurance_website/
+  + Click <a href="https://kisavi.github.io/JS_quiz/">here</a> or
+  + Copy paste and load this link on your preferred browser https://kisavi.github.io/JS_quiz/
   
   ## Technology used
   + HTML - which was used in the structuring of the page.
