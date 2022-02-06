@@ -28,6 +28,20 @@ function scoreCalculation() {
         }
     }
     document.getElementById('displayScore').innerHTML = score
+
+    if (score <= 2) {
+        document.getElementById('comments').innerHTML = 'You have scored poorly and you need to retake the test.'
+    } else if (score == 3) {
+        document.getElementById('comments').innerHTML = 'You have fairly passed.'
+    } else {
+        document.getElementById('comments').innerHTML = 'You have passed excellently!!!'
+    }
+    
+    if (score <=2) {
+        document.getElementById('btn-3').style.display = 'block'
+    } else {
+        document.getElementById('btn-3').style.display = 'none'
+    }
 }
 
 document.getElementById('submit').addEventListener('click', myFunctions);
